@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	background-color: #F5D60C;
+}
+
+h1 {
+	color: #423B33;
+	
+
+}
+
+.head {
+	background-color: red;
+	margin: 0;
+	height: 20px;
+	width: 300px;
+	float: top;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	background-color: #3AA0C2;
+	margin: 5px;
+	padding: 5px 10px;
+	color: white;
+ 	border-radius: 10px 5px;
+ 	box-shadow: 10px 15px 5px #888888;
+ }
+
+ ul li a {
+ 	text-decoration: none;
+ 	
+ }
+
+ul li a:hover {
+	color: #B9D5FA;
+
+} 
+
+.mariobros {
+	width: 300px;
+	background-image: url(mario3.jpg);
+	height: 400px;
+	margin: 20px auto;
+	float: left;
+	border: none;
+
+}
+
+	@media all and (max-width: 1000px){
+		.mariobros {
+		background-image: url(mario32.jpg);
+		margin: 0 auto;
+		border: 0;
+        float: none;
+		}
+	}
+    
+
+
+.supermario2 {
+    width: 300px;
+	background-image: url(suits.jpg);
+	height: 400px;
+	margin: 20px;
+	float: left;
+	border: none;
+
+}
+
+	@media all and (max-width: 500px){
+		.mariobros {
+		background-image: url(supermario3.jpg);
+		margin: 0 auto;
+		border: 0;
+        float: none;
+		}
+	}
