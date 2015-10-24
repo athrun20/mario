@@ -10,7 +10,6 @@ h1 {
 }
 
 .head {
-	background-color: red;
 	margin: 0;
 	height: 20px;
 	width: 300px;
@@ -36,44 +35,21 @@ nav ul li {
 ul li a:hover {
 	color: #B9D5FA;
 
-} 
-
-.mariobros {
-	width: 300px;
-	background-image: url(mario3.jpg);
-	height: 400px;
-	margin: 20px auto;
-	float: left;
-	border: none;
-
 }
 
-	@media all and (max-width: 1000px){
-		.mariobros {
-		background-image: url(mario32.jpg);
-		margin: 0 auto;
-		border: 0;
-        float: none;
-		}
-	}
+@media screen and (max-width: 480px) {
+    nav ul li {
+        width: 816; 
+        background-color: white;
+    }
+    iframe {
+    	width: 80%;
+    }
+    .mario {
+    	width: 816;
+    }
     
 
-
-.supermario2 {
-    width: 300px;
-	background-image: url(suits.jpg);
-	height: 400px;
-	margin: 20px;
-	float: left;
-	border: none;
-
 }
 
-	@media all and (max-width: 500px){
-		.mariobros {
-		background-image: url(supermario3.jpg);
-		margin: 0 auto;
-		border: 0;
-        float: none;
-		}
-	}
+
